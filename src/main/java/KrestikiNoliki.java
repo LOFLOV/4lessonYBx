@@ -238,7 +238,7 @@ public class KrestikiNoliki {
         int inputValue = 0;
 
         do {
-            System.out.println("Выберие поле 3х3 - ведите (1) для поля 5х5 - ведите (2)");
+            System.out.println("Выбор поля, для 3х3 - введите (1), для поля 5х5 - введите (2)");
             try {
                 inputValue = scanner.nextInt();
             } catch (InputMismatchException excep) {
